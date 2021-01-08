@@ -1,0 +1,132 @@
+
+.top-posts ul li span {
+    display: block;
+}
+.container {
+    width: 1060px;
+    max-width: 100%;
+    margin: 0px auto;
+}
+.container .wrapper  {
+    display: flex;
+    justify-content: space-between;
+}
+.container .wrapper .header-menu ul {
+    display: flex;
+}
+.container .wrapper .header-menu ul li {
+    list-style: none;
+    padding-left: 20px;
+    text-align: center;
+    line-height: 24px;
+}
+.container .wrapper .header-menu ul li a {
+    text-decoration: none;
+}
+input {
+    display: block;
+    width: 300px;
+    height: 200px;
+}
+
+.top-posts ul li span {
+    display: block;
+}
+.container {
+    width: 1060px;
+    max-width: 100%;
+    margin: 0px auto;
+}
+.container .wrapper  {
+    display: flex;
+    justify-content: space-between;
+}
+.container .wrapper .header-menu ul {
+    display: flex;
+}
+.container .wrapper .header-menu ul li {
+    list-style: none;
+    padding-left: 20px;
+    text-align: center;
+    line-height: 24px;
+}
+
+.container img {
+    max-width: 100%;
+}
+.content .container{
+    margin-top: 100px;
+    display: flex;
+}
+.content .container .detail-content {
+    flex-basis: 65%;
+}
+.content .container .my-infor {
+    flex-basis: 35%;
+}
+.can-like {
+    background-color: #ebebeb;
+    padding-top: 100px;
+}
+.can-like .container{
+    display: flex;
+    justify-content: space-between;
+}
+.can-like .container .items {
+ flex-basis: calc(100% / 3 - 30px);
+}
+.can-like .container .items img {
+    max-width: 100%;
+    height: auto;
+}
+.statement .container .comment  {
+    display: flex;
+}
+.statement .container .comment .avata,
+.new-comment .avata {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.statement .container .comment .avata img,
+.new-comment .avata img {
+    display: block;
+    height: 80px;
+    
+}
+.new-comment .avata {
+    margin: 0px;
+    margin-right: 20px;
+}
+.statement .container .comment div button {
+    border: none;
+    background-color: #ebebeb;
+    outline: none;
+    cursor: pointer;
+}
+.statement .container .comment div button:hover {
+    background-color: #ababab;
+}
+.new-comment div textarea {
+    resize: none;
+    width: 100%;
+    outline: none;
+}
+.new-comment {
+    margin-top: 30px;
+    display: flex;
+}
+.new-comment .text {
+    width: 100%;
+}
+.icon ul {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.icon ul li {
+    list-style: none;
+    padding: 20px;
+}
